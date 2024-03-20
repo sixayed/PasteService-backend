@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/Paste
+    username: root
+    password: 123
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+app:
+  publicListSize: 10
+  host: http://localhost:8080
