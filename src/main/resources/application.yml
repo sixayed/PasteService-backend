@@ -6,6 +6,9 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+  docker:
+    compose:
+      enabled: false
 
 app:
   publicListSize: 10
